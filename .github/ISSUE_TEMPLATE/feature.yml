@@ -6,34 +6,38 @@ assignees:
   - octocat
 
 body:
-  - type: textarea
-    id: descriptionn
+  - type: markdown
     attributes:
-      label: Description
-      description: Description
-      placeholder: A clear and concise description of what the bug is.
-      value: "A bug happened!"
+      value: |
+        ***Please note: No new feature requests are being accepted for Wails v1***
+
+  - type: textarea
+    attributes:
+      label: Is your feature request related to a problem? Please describe.
+      description: A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+    validations:
+      required: false
+
+  - type: textarea
+    attributes:
+      label: Describe the solution you'd like
+      description: A clear and concise description of what you want to happen.
     validations:
       required: true
 
   - type: textarea
-    id: reproducen
     attributes:
-      label: To Reproduce
-      description: Steps to reproduce the behaviour
-      placeholder: Description
-      value: |-
-        1. 
-        2. 
-        3. 
+      label: Describe alternatives you've considered
+      description: A clear and concise description of any alternative solutions or features you've considered.
     validations:
-      required: true
+      required: false
+
   - type: textarea
-    id: wails-doctorn
     attributes:
-      label: System Details
-      description: Please add the output of `wails doctor`.
-      render: shell
+      label: Additional context
+      description: Add any other context or screenshots about the feature request here.
+    validations:
+      required: false
 
   - type: markdown
     attributes:
