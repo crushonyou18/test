@@ -15,7 +15,6 @@ body:
       value: ""
     validations:
       required: true
-
   - type: textarea
     id: reproduce
     attributes:
@@ -29,7 +28,6 @@ body:
         4. See error
     validations:
       required: true
-
   - type: textarea
     id: expected-behaviour
     attributes:
@@ -39,7 +37,6 @@ body:
       value: ""
     validations:
       required: true
-
   - type: textarea
     id: screenshots
     attributes:
@@ -49,7 +46,6 @@ body:
       value: ""
     validations:
       required: false
-
   - type: textarea
     id: attempted-fixes
     attributes:
@@ -59,14 +55,12 @@ body:
       value: ""
     validations:
       required: false
-
   - type: textarea
     id: systemetails
     attributes:
       label: System Details
       description: Please add the output of `wails doctor`.
       render: shell
-
   - type: textarea
     id: additional-context
     attributes:
