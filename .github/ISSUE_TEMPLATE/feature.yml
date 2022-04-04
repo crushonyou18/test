@@ -34,6 +34,7 @@ body:
       label: System Details
       description: Please add the output of `wails doctor`.
       render: shell
+      
   - type: markdown
     attributes:
       value: |

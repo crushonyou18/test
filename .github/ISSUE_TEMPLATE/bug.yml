@@ -15,6 +15,7 @@ body:
       value: ""
     validations:
       required: true
+
   - type: textarea
     id: reproduce
     attributes:
@@ -22,10 +23,9 @@ body:
       description: Steps to reproduce the behaviour
       placeholder: Steps to reproduce the behaviour
       value: |-
-        1. Go to 
-        2. Click on 
-        3. Scroll down to 
-        4. See error
+        1. 
+        2. 
+        3. 
     validations:
       required: true
   - type: textarea
@@ -44,8 +44,6 @@ body:
       description: If applicable, add screenshots to help explain your problem.
       placeholder: If applicable, add screenshots to help explain your problem.
       value: ""
-    validations:
-      required: false
   - type: textarea
     id: attempted-fixes
     attributes:
@@ -53,14 +51,13 @@ body:
       description: A list of things you have tried to fix the problem, including search engine links.
       placeholder: A list of things you have tried to fix the problem, including search engine links.
       value: ""
-    validations:
-      required: false
   - type: textarea
     id: systemetails
     attributes:
       label: System Details
       description: Please add the output of `wails doctor`.
       render: shell
+
   - type: textarea
     id: additional-context
     attributes:
@@ -68,8 +65,6 @@ body:
       description: Add any other context about the problem here.
       placeholder: Add any other context about the problem here.
       value: ""
-    validations:
-      required: false
 
   - type: markdown
     attributes:
