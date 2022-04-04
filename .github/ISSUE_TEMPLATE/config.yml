@@ -2,4 +2,4 @@ blank_issues_enabled: false
 contact_links:
   - name: GitHub Community Discussions
     url: https://github.com/crushonyou18/test/discussions
-    about: If your question is not a feature or a bug, please go to the discussion panel. | 如果您的问题不是功能或者错误，请转到讨论面板。
+    about: If your question is not a feature or a bug, please go to the discussion panel and retrieve if your question already exists before submitting. 
