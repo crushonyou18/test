@@ -9,7 +9,7 @@ body:
     id: description
     attributes:
       label: Description
-      description:
+      description: Description
       placeholder: A clear and concise description of what the bug is.
       value: "A bug happened!"
     validations:
@@ -20,7 +20,7 @@ body:
     attributes:
       label: To Reproduce
       description: Steps to reproduce the behaviour
-      placeholder:
+      placeholder: Description
       value: "A bug happened!"
     validations:
       required: true
