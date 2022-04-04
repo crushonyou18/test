@@ -66,8 +66,6 @@ body:
       label: System Details
       description: Please add the output of `wails doctor`.
       render: shell
-    validations:
-      required: true
 
   - type: textarea
     id: additional-context
