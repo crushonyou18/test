@@ -80,8 +80,6 @@ body:
     validations:
       required: false
 
-
-
   - type: markdown
     attributes:
       value: |
