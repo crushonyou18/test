@@ -1,10 +1,39 @@
-name: Bug Report
-description: File a bug report
-title: "[Bug]: "
-labels: ["bug", "triage"]
-assignees:
-  - octocat
+---
+name: Bug report
+about: Create a report to help us improve
+title: ""
+labels: bug
+assignees: ""
+
+---
 body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description:
+      placeholder: A clear and concise description of what the bug is.
+      value: "A bug happened!"
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: To Reproduce
+      description: Steps to reproduce the behaviour
+      placeholder:
+      value: "A bug happened!"
+    validations:
+      required: true
+
+  - type: textarea
+    id: wails-doctor
+    attributes:
+      label: System Details
+      description: Please add the output of `wails doctor`.
+      render: shell
+
   - type: markdown
     attributes:
       value: |
