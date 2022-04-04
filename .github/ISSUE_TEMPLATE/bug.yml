@@ -11,8 +11,8 @@ body:
     attributes:
       label: Description
       description: A clear and concise description of what the bug is.
-      placeholder: A clear and concise description of what the bug is.
-      value: " "
+      placeholder: A clear and concise description of what the bug is..
+      value: "zhanwei"
     validations:
       required: true
 
